@@ -32,6 +32,12 @@ The main objective of the project is to create a program which can be either run
 
 • In our model we have used JetPack version 4.6 which is the latest production release and supports all Jetson modules.
 
+# Jetson Nano 2GB:-
+
+![nano_img01](https://user-images.githubusercontent.com/66688284/209078374-55e0844c-333a-4476-926d-d242951b55ae.jpg)
+
+
+
 # Proposed System
 
 Study basics of machine learning and image recognition.
@@ -141,6 +147,10 @@ sudo pip3 install --ignore-installed PyYAML>=5.3.1
 sudo pip3 install -r requirements.txt
 sudo python3 detect.py
 sudo python3 detect.py --weights yolov5s.pt --source 0
+
+# Demo Link :-
+
+https://youtu.be/RWPAm-e2b28
 
 # We used Google Colab And Roboflow
 train your model on colab and download the weights and past them into yolov5 folder link of project
